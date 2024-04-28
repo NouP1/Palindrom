@@ -1,9 +1,20 @@
+
 var builder = WebApplication.CreateBuilder();
 var app = builder.Build();
-SemaphoreSlim semaphore=new(3);
+
+int maxReq;
+Console.WriteLine("Ведите кол-во одновременно обрабатываемых запросов сервером: ");
+while (!int.TryParse(Console.ReadLine(), out maxReq) || maxReq <= 0)
+{
+    Console.WriteLine("Неккоректное значение...");
+}
+
+SemaphoreSlim semaphore = new(maxReq);
+
+
 app.MapPost("/", async (HttpContext httpContext) =>
 {
-    
+
     await semaphore.WaitAsync();
     Console.WriteLine("Входит в очередь");
 
@@ -13,25 +24,22 @@ app.MapPost("/", async (HttpContext httpContext) =>
     char[] obrtext = name.ToCharArray();
     Array.Reverse(obrtext);
     string finaltext = new(obrtext);
-    
-Console.WriteLine("Обрабатывается....");
-Thread.Sleep(1000);
 
+    Console.WriteLine("Обрабатывается....");
+    await Task.Delay(2000);
 
-  if(name==finaltext)
-            {
-                semaphore.Release();
-                string result = name +"  палиндром (Вышел из очереди)";
-                return result;
-            }
-            else
-            {
-                semaphore.Release();
-                string result = name +" не палиндром (Вышел из очереди)";
-                return result;          
-            }
+    string result;
+    if (name == finaltext)
+    {
+        result = name + "  палиндром (Вышел из очереди)";
+    }
+    else
+    {
+        result = name + " не палиндром (Вышел из очереди)";
+    }
+    semaphore.Release();
+    await httpContext.Response.WriteAsync(result);
 
 });
-app.Run();
-
+app.Run("http://localhost:5135");
 

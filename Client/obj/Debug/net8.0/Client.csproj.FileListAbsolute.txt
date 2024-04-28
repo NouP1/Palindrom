@@ -12,3 +12,4 @@ C:\Users\Noup\Pet_project\Palindrom\Client\obj\Debug\net8.0\refint\Client.dll
 C:\Users\Noup\Pet_project\Palindrom\Client\obj\Debug\net8.0\Client.pdb
 C:\Users\Noup\Pet_project\Palindrom\Client\obj\Debug\net8.0\Client.genruntimeconfig.cache
 C:\Users\Noup\Pet_project\Palindrom\Client\obj\Debug\net8.0\ref\Client.dll
+C:\Users\Noup\Pet_project\Palindrom\Client\obj\Debug\net8.0\Client.sourcelink.json

@@ -1,0 +1,5 @@
+C:\Users\Noup\Pet_project\Palindrom\Client\C\Client.exe
+C:\Users\Noup\Pet_project\Palindrom\Client\C\Client.dll
+C:\Users\Noup\Pet_project\Palindrom\Client\C\Client.deps.json
+C:\Users\Noup\Pet_project\Palindrom\Client\C\Client.runtimeconfig.json
+C:\Users\Noup\Pet_project\Palindrom\Client\C\Client.pdb

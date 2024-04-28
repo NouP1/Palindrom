@@ -1,0 +1,12 @@
+C:\Users\Noup\Pet_project\Palindrom\Server\S\Server.exe
+C:\Users\Noup\Pet_project\Palindrom\Server\S\appsettings.Development.json
+C:\Users\Noup\Pet_project\Palindrom\Server\S\appsettings.json
+C:\Users\Noup\Pet_project\Palindrom\Server\S\Server.dll
+C:\Users\Noup\Pet_project\Palindrom\Server\S\Server.deps.json
+C:\Users\Noup\Pet_project\Palindrom\Server\S\Server.runtimeconfig.json
+C:\Users\Noup\Pet_project\Palindrom\Server\S\Server.pdb
+C:\Users\Noup\Pet_project\Palindrom\Server\S\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Noup\Pet_project\Palindrom\Server\S\Microsoft.OpenApi.dll
+C:\Users\Noup\Pet_project\Palindrom\Server\S\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Noup\Pet_project\Palindrom\Server\S\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Noup\Pet_project\Palindrom\Server\S\Swashbuckle.AspNetCore.SwaggerUI.dll

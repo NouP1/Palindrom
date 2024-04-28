@@ -31,3 +31,9 @@ C:\Users\Noup\Pet_project\Palindrom\Server\obj\Debug\net8.0\refint\Server.dll
 C:\Users\Noup\Pet_project\Palindrom\Server\obj\Debug\net8.0\Server.pdb
 C:\Users\Noup\Pet_project\Palindrom\Server\obj\Debug\net8.0\Server.genruntimeconfig.cache
 C:\Users\Noup\Pet_project\Palindrom\Server\obj\Debug\net8.0\ref\Server.dll
+C:\Users\Noup\Pet_project\Palindrom\Server\obj\Debug\net8.0\Server.sourcelink.json
+C:\Users\Noup\Pet_project\Palindrom\Server\bin\Debug\net8.0\C\web.config
+C:\Users\Noup\Pet_project\Palindrom\Server\bin\Debug\net8.0\C\appsettings.Development.json
+C:\Users\Noup\Pet_project\Palindrom\Server\bin\Debug\net8.0\C\appsettings.json
+C:\Users\Noup\Pet_project\Palindrom\Server\bin\Debug\net8.0\C\Server.deps.json
+C:\Users\Noup\Pet_project\Palindrom\Server\bin\Debug\net8.0\C\Server.runtimeconfig.json
